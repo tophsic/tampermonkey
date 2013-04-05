@@ -1,0 +1,3 @@
+Help = function () {
+    return {};
+};

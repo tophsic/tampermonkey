@@ -7,7 +7,7 @@ var Help = {
 };
 
 keypress.register_combo({ // Help
-    "keys"          : "shift ~",
+    "keys"          : "cmd `",
     "is_exclusive"  : true,
     "on_keyup"      : function(e) {
         

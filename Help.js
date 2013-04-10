@@ -2,7 +2,7 @@ $('body').append('<div id="myHelp" title="Help box" ng-controller="HelpCtrl"><ta
 
 var Help = {
     add: function(c) {
-        $('#myHelp table').append('<tr><td>'+c.keys+'</td><td>'+c.description+'</td></tr>');
+        $('#myHelp table').append('<tr><td><strong>'+c.keys+'</strong></td><td>'+c.description+'</td></tr>');
     }
 };
 
